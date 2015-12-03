@@ -14,7 +14,7 @@ Class PointeuseNiveau3 extends PointeuseBase{
             $secondes = (int)($totalsecondes - $minutes * 60 - $heures * 3600);
             $this->_pondération = array("h" => $heures, "m" => $minutes, "s" => $secondes);
             return $this->_pondération;
-            echo "Votre temps de travail a été augmenté de 150%";
+            echo "Votre temps de travail a été augmenté de 150%" ;
         }
     }
 
